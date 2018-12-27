@@ -3,3 +3,32 @@
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     color: aqua;
 }
+
+.github {
+    background-image: url('./../Images/github-sign.svg');
+    background-size: cover;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.linkedin {
+    background-image: url('./../Images/linkedin-logo.svg');
+    background-size: cover;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.facebook {
+    background-image: url('./../Images/facebook-letter-logo.svg');
+    background-size: cover;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.button {
+    padding: 0px;
+    background: white;
+}
