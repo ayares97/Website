@@ -9,9 +9,12 @@ class Head extends Component{
                     <Jumbotron>
                         <h1 className="display-3"> Alex Yares</h1>
                         <row>
-                            <img src="./Images/github.png" alt="a" width="40" height="40"/>
-                            <img src="./Images/linkedin.png" alt="b"/>
-                            <img src="./Images/facebook.png" alt="c"/>
+                            <a href="https://www.github.com/ayares97">
+                                <img src="Images/github.png" alt="Github"/>
+                            </a>
+                            <img src= "./Images/linkedin.png" alt="Linkedin"/>
+                            <img src= "facebook.png" alt="Facebook"/>
+
                         </row>
                         <hr className="my-2"/>
                     </Jumbotron>
