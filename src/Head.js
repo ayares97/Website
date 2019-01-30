@@ -1,12 +1,21 @@
 import React from 'react';
-import {Jumbotron, Row, Container, Col} from 'reactstrap';
+import {Jumbotron, Row, Container, Col, Button} from 'reactstrap';
 import './Stylesheets/Head.css'
 
 class Head extends React.Component{
+    constructor(props) {
+        super(props);
+        this.sendEmail = this.sendEmail.bind(this);
+    }
+
+
+    sendEmail(){
+        window.location.href = "mailto:alex@yares.net";
+    }
+
     render(){
         return(
             <Container>
-
                     <Row>
                         <Col>
                             <Jumbotron>
@@ -22,12 +31,11 @@ class Head extends React.Component{
                                     <a href="https://www.facebook.com/alex.yares" target="_blank" rel="noopener noreferrer">
                                         <img className='image' src={require('./Images/facebook.png')} alt="Facebook"/>
                                     </a>
+                                    <Button onClick={this.sendEmail}> Contact me </Button>
                                 </row>
                                 <hr className="my-2"/>
+                                <p> A passionate and driven programmer seeking new and exciting challenges to solve. </p>
                             </Jumbotron>
-                        </Col>
-                        <Col>
-                            <p>  </p>
                         </Col>
                     </Row>
             </Container>
