@@ -3,3 +3,9 @@
     width: 30px;
     padding: 2px;
 }
+
+.emailButton {
+    margin-left: 75px;
+    color: white;
+    background-color: slateblue;
+}

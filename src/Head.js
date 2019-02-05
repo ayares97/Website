@@ -15,7 +15,7 @@ class Head extends React.Component{
 
     render(){
         return(
-            <Container>
+            <Container fluid>
                     <Row>
                         <Col>
                             <Jumbotron>
@@ -31,7 +31,7 @@ class Head extends React.Component{
                                     <a href="https://www.facebook.com/alex.yares" target="_blank" rel="noopener noreferrer">
                                         <img className='image' src={require('./Images/facebook.png')} alt="Facebook"/>
                                     </a>
-                                    <Button onClick={this.sendEmail}> Contact me </Button>
+                                    <Button className='emailButton' onClick={this.sendEmail}> Contact me </Button>
                                 </row>
                                 <hr className="my-2"/>
                                 <p> A passionate and driven programmer seeking new and exciting challenges to solve. </p>
