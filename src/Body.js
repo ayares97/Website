@@ -6,6 +6,7 @@ import './Stylesheets/Body.css';
 import Experience from "./Body_Components/Experience";
 import Education from "./Body_Components/Education";
 import Skills from "./Body_Components/Skills";
+import Leadership from "./Body_Components/Leadership";
 
 class Body extends React.Component{
     constructor(props){
@@ -49,8 +50,11 @@ class Body extends React.Component{
                     </Col>
                     <Col xl='6' lg='6' md='6' sm='12' xs='12'>
                        <Experience/>
+                       <br/>
+                       <Leadership/>
                     </Col>
                 </Row>
+                <br/>
             </Container>
         )
     }

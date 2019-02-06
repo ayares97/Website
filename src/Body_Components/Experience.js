@@ -1,5 +1,7 @@
 import React from 'react';
 import {Card, CardBody, CardTitle} from "reactstrap";
+
+//Styling
 import '../Stylesheets/Body.css'
 
 class Experience extends React.Component{

@@ -1,5 +1,7 @@
 import React from 'react';
 import {Card, CardBody, CardTitle} from 'reactstrap';
+
+//Styling
 import '../Stylesheets/Body.css';
 
 class Skills extends React.Component{
@@ -13,7 +15,7 @@ class Skills extends React.Component{
                 <CardTitle className="cardHeaders"> <p> <b> Skills </b> </p> <hr/> </CardTitle>
                 <CardBody>
                     <p>
-                        <b className="miniHeaders"> Languages</b><br/>
+                        <b className="miniHeaders"> Languages</b> <br/>
                     </p>
                         <ul>
                             <li>Java & Javascript (Node.js & React)</li>
