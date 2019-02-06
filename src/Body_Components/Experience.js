@@ -1,5 +1,6 @@
 import React from 'react';
 import {Card, CardBody, CardTitle} from "reactstrap";
+import '../Stylesheets/Body.css'
 
 class Experience extends React.Component{
     constructor(props){
@@ -9,7 +10,7 @@ class Experience extends React.Component{
     render(){
         return(
             <Card>
-                <CardTitle className='cardHeaders'> <p> <b> Experience</b> <hr/></p> </CardTitle>
+                <CardTitle className='cardHeaders'> <p> <b> Experience</b> </p> <hr/> </CardTitle>
                 <CardBody>
                     <p>
                         <a href="https://www.wpafb.af.mil/Portals/60/documents/afrl/ri/ACE2018-Brochure.pdf?ver=2017-09-19-152504-233"
@@ -17,6 +18,7 @@ class Experience extends React.Component{
                             <b>Advanced Course in Engineering (ACE)</b><br/>
                         </a>
                         <i> Air Force Research Labs - Rome NY </i> <br/>
+                    </p>
                         <ul>
                             <li>10 week intensive research co-op</li>
                             <li>Developed and researched Cybersecurity concepts for Air Force Research Labs (AFRL) </li>
@@ -34,32 +36,31 @@ class Experience extends React.Component{
                                 <li>Implant Development</li>
                             </ul>
                         </ul>
-                    </p>
                     <p>
                         <a href="https://lifewiregroup.com/" target="_blank" rel="noopener noreferrer">
-                            <b> LIFEWire Group</b> <br/>
+                            <b> LIFEWire Group</b><br/>
                         </a>
                         <i> Fort Collins, CO - Quality Assurance Intern</i> <br/>
                         Responsibilities:
+                    </p>
                         <ul>
                             <li>Rigorously tested modules for deployment</li>
                             <li>Assisted in error handling adjustments for modules</li>
                             <li>Assisted in new module integration to production environment</li>
                         </ul>
-                    </p>
                     <p>
                         <a href="https://www.afrotc.com/" target="_blank" rel="noopener noreferrer">
-                            <b>Air Force ROTC Field Training</b> <br/>
+                            <b>Air Force ROTC Field Training</b><br/>
                         </a>
                         <i>Summer 2016</i> <br/>
                         Skills Developed:
+                    </p>
                         <ul>
                             <li>Team & Personnel Management</li>
                             <li>Leadership Theory & Styles</li>
                             <li>Stress & Deadline Management</li>
                             <li>Interpersonal Skills</li>
                         </ul>
-                    </p>
                 </CardBody>
             </Card>
         )

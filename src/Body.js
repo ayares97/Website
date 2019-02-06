@@ -1,11 +1,11 @@
 import React from 'react';
-import {Card, CardBody, CardTitle, Col, Container, Row, Collapse} from 'reactstrap';
+import {Col, Container, Row, Collapse} from 'reactstrap';
 import './Stylesheets/Body.css';
 
 //Import content
 import Experience from "./Body_Components/Experience";
 import Education from "./Body_Components/Education";
-
+import Skills from "./Body_Components/Skills";
 
 class Body extends React.Component{
     constructor(props){
@@ -40,10 +40,12 @@ class Body extends React.Component{
         return(
             <Container fluid>
                 <Row>
-                    <Col lg='6' md= '6' sm='12' xs='12'>
+                    <Col xl='6' lg='6' md= '6' sm='12' xs='12'>
                         <Collapse isOpen={this.state.collapseEducation}>
                             <Education/>
                         </Collapse>
+                        <br/>
+                        <Skills/>
                     </Col>
                     <Col xl='6' lg='6' md='6' sm='12' xs='12'>
                        <Experience/>

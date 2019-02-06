@@ -9,13 +9,14 @@ class Education extends React.Component{
     render() {
         return(
             <Card>
-                <CardTitle className='cardHeaders'> <p> <b> Education </b> <hr/> </p> </CardTitle>
+                <CardTitle className='cardHeaders'> <p> <b> Education </b> </p> <hr/> </CardTitle>
                 <CardBody>
                     <p>
                         <a href="https://compsci.colostate.edu/" target="_blank" rel="noopener noreferrer">
                             <b>Colorado State University</b><br/>
                         </a>
                         <i> Bachelor of Science - Computer Science</i><br/>
+                    </p>
                         <ul>
                             <li> Graduation: Winter 2019 </li>
                             <li> GPA: 3.52 </li>
@@ -27,17 +28,16 @@ class Education extends React.Component{
                                 <li> CS481: Blockchain Theory & Applications - A </li>
                             </ul>
                         </ul>
-                    </p>
                     <p>
                         <a href="https://www.athenian.org/page" target="_blank" rel="noopener noreferrer">
                             <b> The Athenian School</b> <br/>
                         </a>
                         <i> High School Diploma</i> <br/>
+                    </p>
                         <ul>
                             <li> Graduation: May 2015</li>
                             <li> GPA: 3.32</li>
                         </ul>
-                    </p>
                 </CardBody>
             </Card>
         )

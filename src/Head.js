@@ -20,7 +20,7 @@ class Head extends React.Component{
                         <Col>
                             <Jumbotron>
                                 <h1 className="display-3"> Alex Yares</h1>
-                                <row>
+                                <Row>
                                     <a href="https://www.github.com/ayares97" target="_blank" rel="noopener noreferrer">
                                         <img className="image" src={require("./Images/github.png")} alt="Github"/>
                                     </a>
@@ -32,7 +32,7 @@ class Head extends React.Component{
                                         <img className='image' src={require('./Images/facebook.png')} alt="Facebook"/>
                                     </a>
                                     <Button className='emailButton' onClick={this.sendEmail}> Contact me </Button>
-                                </row>
+                                </Row>
                                 <hr className="my-2"/>
                                 <p> A passionate and driven programmer seeking new and exciting challenges to solve. </p>
                             </Jumbotron>
