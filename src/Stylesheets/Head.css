@@ -4,8 +4,20 @@
     padding: 2px;
 }
 
-.emailButton {
-    margin-left: 75px;
-    color: white;
-    background-color: slateblue;
+.first-image {
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    margin-left: 14px;
+}
+
+.name {
+    font-size: 68px;
+
+}
+
+.br-adj {
+    display: block;
+    content: "";
+    margin-top: 7px;
 }

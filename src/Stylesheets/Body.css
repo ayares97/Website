@@ -6,3 +6,22 @@
 .miniHeaders{
     color: 	#007bff;
 }
+
+.emailButton {
+    color: white;
+    background-color: #007bff;
+    justify-content: center;
+}
+
+.gap-control{
+    margin-top: -30px;
+}
+
+.pushdown{
+    margin-bottom: 9px;
+}
+
+.pullup{
+    color: 	#007bff;
+    margin-bottom: -5px;
+}

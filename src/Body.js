@@ -1,5 +1,5 @@
 import React from 'react';
-import {Col, Container, Row, Collapse} from 'reactstrap';
+import {Col, Container, Row, Collapse, Button} from 'reactstrap';
 import './Stylesheets/Body.css';
 
 //Import content
@@ -16,13 +16,16 @@ class Body extends React.Component{
         this.state = {
             collapseEducation: true,
             collapseExperience: true,
-            collapseSkills: true
+            collapseSkills: true,
+            collapseLeadership: true
         };
 
         //Functions toggle the visibility of different cards on screen
         this.toggleEducation = this.toggleEducation.bind(this);
         this.toggleExperience = this.toggleExperience.bind(this);
         this.toggleSkills = this.toggleSkills.bind(this);
+        this.toggleLeadership = this.toggleLeadership.bind(this);
+        this.sendEmail = this.sendEmail.bind(this);
     }
 
     toggleEducation(){
@@ -37,6 +40,14 @@ class Body extends React.Component{
         this.setState({collapseSkills: !this.state.collapseSkills});
     }
 
+    toggleLeadership(){
+        this.setState({collapseLeadership: !this.state.collapseLeadership});
+    }
+
+    sendEmail(){
+        window.location.href = "mailto:alex@yares.net";
+    }
+
     render(){
         return(
             <Container fluid>
@@ -47,12 +58,18 @@ class Body extends React.Component{
                         </Collapse>
                         <br/>
                         <Skills/>
+                        <br/>
                     </Col>
+
                     <Col xl='6' lg='6' md='6' sm='12' xs='12'>
                        <Experience/>
                        <br/>
                        <Leadership/>
+                       <br/>
                     </Col>
+                </Row>
+                <Row>
+                    <Col className="text-center"><Button className='emailButton' onClick={this.sendEmail}> Contact me </Button></Col>
                 </Row>
                 <br/>
             </Container>
