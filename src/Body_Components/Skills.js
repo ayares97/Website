@@ -12,7 +12,7 @@ class Skills extends React.Component{
     render() {
         return (
             <Card>
-                <CardTitle className="cardHeaders"> <p> <b> Skills </b> </p> <hr/> </CardTitle>
+                <CardTitle className="cardHeaders"> <p> <b> Skills </b> </p> <hr className='line-gap-control'/> </CardTitle>
                 <CardBody className='gap-control pushdown'>
                     <b className="miniHeaders"> Languages</b> <br/>
                     <ul>

@@ -12,7 +12,7 @@ class Leadership extends React.Component{
     render() {
         return (
             <Card>
-                <CardTitle className="cardHeaders"> <p><b>Leadership & Awards</b></p><hr/></CardTitle>
+                <CardTitle className="cardHeaders"> <p><b>Leadership & Awards</b></p><hr className='line-gap-control'/></CardTitle>
                 <CardBody className='gap-control'>
                     <p>
                         <b className="miniHeaders"> Advanced Course in Engineering (ACE) </b>

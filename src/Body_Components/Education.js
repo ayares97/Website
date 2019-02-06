@@ -9,7 +9,7 @@ class Education extends React.Component{
     render() {
         return(
             <Card>
-                <CardTitle className='cardHeaders'><b> Education </b><hr/> </CardTitle>
+                <CardTitle className='cardHeaders'> <p> <b> Education </b> </p> <hr className='line-gap-control'/> </CardTitle>
                 <CardBody className="gap-control">
                     <a href="https://compsci.colostate.edu/" target="_blank" rel="noopener noreferrer">
                         <b>Colorado State University</b><br/>

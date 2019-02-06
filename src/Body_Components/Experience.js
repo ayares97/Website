@@ -12,7 +12,7 @@ class Experience extends React.Component{
     render(){
         return(
             <Card>
-                <CardTitle className='cardHeaders'> <p> <b> Experience</b> </p> <hr/> </CardTitle>
+                <CardTitle className='cardHeaders'> <p> <b> Experience</b> </p> <hr className='line-gap-control'/> </CardTitle>
                 <CardBody className='gap-control'>
                     <a href="https://www.wpafb.af.mil/Portals/60/documents/afrl/ri/ACE2018-Brochure.pdf?ver=2017-09-19-152504-233"
                        target="_blank" rel="noopener noreferrer">

@@ -1,5 +1,6 @@
 .cardHeaders{
-    padding-left: 10px;
+    padding-left: 12px;
+    margin-top: 10px;
     font-family: Garuda;
 }
 
@@ -24,4 +25,9 @@
 .pullup{
     color: 	#007bff;
     margin-bottom: -5px;
+}
+
+.line-gap-control{
+    margin-top: -10px;
+    margin-bottom: 0px;
 }
