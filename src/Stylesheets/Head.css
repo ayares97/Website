@@ -21,3 +21,11 @@
     content: "";
     margin-top: 7px;
 }
+
+.emailButton {
+    color: white;
+    background-color: #007bff;
+    justify-content: center;
+    margin-bottom: -30px;
+}
+

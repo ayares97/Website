@@ -25,7 +25,6 @@ class Body extends React.Component{
         this.toggleExperience = this.toggleExperience.bind(this);
         this.toggleSkills = this.toggleSkills.bind(this);
         this.toggleLeadership = this.toggleLeadership.bind(this);
-        this.sendEmail = this.sendEmail.bind(this);
     }
 
     toggleEducation(){
@@ -42,10 +41,6 @@ class Body extends React.Component{
 
     toggleLeadership(){
         this.setState({collapseLeadership: !this.state.collapseLeadership});
-    }
-
-    sendEmail(){
-        window.location.href = "mailto:alex@yares.net";
     }
 
     render(){
@@ -69,9 +64,6 @@ class Body extends React.Component{
                                     toggleLeadership={this.toggleLeadership}/>
                        <br/>
                     </Col>
-                </Row>
-                <Row>
-                    <Col className="text-center"><Button className='emailButton' onClick={this.sendEmail}> Contact me </Button></Col>
                 </Row>
                 <br/>
             </Container>

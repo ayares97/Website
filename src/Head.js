@@ -5,6 +5,12 @@ import './Stylesheets/Head.css'
 class Head extends React.Component{
     constructor(props) {
         super(props);
+
+        this.sendEmail = this.sendEmail.bind(this);
+    }
+
+    sendEmail(){
+        window.location.href = "mailto:alex@yares.net";
     }
 
 
@@ -29,10 +35,13 @@ class Head extends React.Component{
                                     </a>
                                 </Row>
                                 <hr className="my-2"/>
-                                <p> A passionate, creative, and driven programmer seeking new and exciting challenges to solve.
+                                A passionate, creative, and driven programmer seeking new and exciting challenges to solve.
                                 My primary area of interest is in Cybersecurity, especially concerning the applications of
-                                    Blockchain and AI technologies. I'm currently a Senior with an expected graduation date of
-                                    Winter 2019.</p>
+                                Blockchain and AI technologies. I'm currently a Senior with an expected graduation date of
+                                Winter 2019.
+                                <Col className="text-right">
+                                    <Button className="emailButton" onClick={this.sendEmail}> Contact me</Button>
+                                </Col>
                             </Jumbotron>
                         </Col>
                     </Row>
