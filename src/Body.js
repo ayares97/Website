@@ -53,18 +53,20 @@ class Body extends React.Component{
             <Container fluid>
                 <Row>
                     <Col xl='6' lg='6' md= '6' sm='12' xs='12'>
-                        <Collapse isOpen={this.state.collapseEducation}>
-                            <Education/>
-                        </Collapse>
+                        <Education collapseEducation={this.state.collapseEducation}
+                                    toggleEducation={this.toggleEducation}/>
                         <br/>
-                        <Skills/>
+                        <Skills collapseSkills={this.state.collapseSkills}
+                                    toggleSkills={this.toggleSkills}/>
                         <br/>
                     </Col>
 
                     <Col xl='6' lg='6' md='6' sm='12' xs='12'>
-                       <Experience/>
+                       <Experience collapseExperience={this.state.collapseExperience}
+                                    toggleExperience={this.toggleExperience}/>
                        <br/>
-                       <Leadership/>
+                       <Leadership collapseLeadership={this.state.collapseLeadership}
+                                    toggleLeadership={this.toggleLeadership}/>
                        <br/>
                     </Col>
                 </Row>
