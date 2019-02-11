@@ -12,7 +12,12 @@ class Experience extends React.Component{
     render(){
         return(
             <Card>
-                <CardTitle className='cardHeaders'> <p> <b> Experience</b> </p> <hr className='line-gap-control'/> </CardTitle>
+                <CardTitle className='cardHeaders'>
+                    <b> Experience</b>
+                    <img className="arrow" src={require("../Images/arrow.png")} alt="arrow"
+                         onClick={this.props.toggleExperience}/>
+                    <hr className='line-gap-control'/>
+                </CardTitle>
                 <Collapse isOpen={this.props.collapseExperience}>
                     <CardBody className='gap-control'>
                         <a href="https://www.wpafb.af.mil/Portals/60/documents/afrl/ri/ACE2018-Brochure.pdf?ver=2017-09-19-152504-233"

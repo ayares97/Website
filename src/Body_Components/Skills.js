@@ -12,8 +12,12 @@ class Skills extends React.Component{
     render() {
         return (
             <Card>
-                <CardTitle className="cardHeaders"> <p> <b> Skills </b> </p> <hr className='line-gap-control'/> </CardTitle>
-                <Collapse/>
+                <CardTitle className="cardHeaders">
+                    <b> Skills </b>
+                    <img className="arrow" src={require("../Images/arrow.png")} alt="arrow"
+                         onClick={this.props.toggleSkills}/>
+                    <hr className='line-gap-control'/> </CardTitle>
+                <Collapse isOpen={this.props.collapseSkills}>
                     <CardBody className='gap-control pushdown'>
                         <b className="miniHeaders"> Languages</b> <br/>
                         <ul>
@@ -41,6 +45,7 @@ class Skills extends React.Component{
                             <li>Apache Web Servers</li>
                         </ul>
                     </CardBody>
+                </Collapse>
             </Card>
         );
     }

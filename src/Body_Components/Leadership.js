@@ -12,7 +12,12 @@ class Leadership extends React.Component{
     render() {
         return (
             <Card>
-                <CardTitle className="cardHeaders"> <p><b>Leadership & Awards</b></p><hr className='line-gap-control'/></CardTitle>
+                <CardTitle className="cardHeaders">
+                    <b>Leadership & Awards</b>
+                     <img className="arrow" src={require("../Images/arrow.png")} alt="arrow"
+                        onClick={this.props.toggleLeadership}/>
+                    <hr className='line-gap-control'/>
+                </CardTitle>
                 <Collapse isOpen={this.props.collapseLeadership}>
                     <CardBody className='gap-control'>
                         <p>
