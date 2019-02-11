@@ -1,5 +1,5 @@
 import React from 'react';
-import {Col, Container, Row, Collapse, Button} from 'reactstrap';
+import {Col, Container, Row} from 'reactstrap';
 import './Stylesheets/Body.css';
 
 //Import content

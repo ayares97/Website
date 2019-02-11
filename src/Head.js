@@ -13,7 +13,6 @@ class Head extends React.Component{
         window.location.href = "mailto:alex@yares.net";
     }
 
-
     render(){
         return(
             <Container fluid>

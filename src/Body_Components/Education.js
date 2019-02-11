@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, CardBody, CardTitle, Collapse} from "reactstrap";
+import {Card, CardBody, CardTitle, Collapse, Row} from "reactstrap";
 
 class Education extends React.Component{
     constructor(props){
@@ -10,7 +10,12 @@ class Education extends React.Component{
     render() {
         return(
             <Card>
-                <CardTitle className='cardHeaders'> <p> <b> Education </b> </p> <hr className='line-gap-control'/> </CardTitle>
+                <CardTitle className='cardHeaders'>
+                    <b> Education </b>
+                    <img className="arrow" src={require("../Images/arrow.png")} alt="arrow"
+                            onClick={this.props.toggleEducation}/>
+                    <hr className='line-gap-control'/>
+                </CardTitle>
                 <Collapse isOpen={this.props.collapseEducation}>
                     <CardBody className="gap-control">
                         <a href="https://compsci.colostate.edu/" target="_blank" rel="noopener noreferrer">
