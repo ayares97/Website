@@ -7,6 +7,18 @@ import "../Stylesheets/Body.css";
 class Leadership extends React.Component{
     constructor(props){
         super(props);
+
+        this.toggleArrow = this.toggleArrow.bind(this);
+    }
+
+    toggleArrow(collapseState){
+        if(!collapseState){
+            return <img className="arrow" src={require("../Images/arrow-down.png")} alt="arrow"
+                        onClick={this.props.toggleLeadership}/>
+        } else {
+            return <img className="arrow" src={require("../Images/arrow.png")} alt="arrow"
+                        onClick={this.props.toggleLeadership}/>
+        }
     }
 
     render() {
@@ -14,8 +26,7 @@ class Leadership extends React.Component{
             <Card>
                 <CardTitle className="cardHeaders">
                     <b>Leadership & Awards</b>
-                     <img className="arrow" src={require("../Images/arrow.png")} alt="arrow"
-                        onClick={this.props.toggleLeadership}/>
+                    {this.toggleArrow(this.props.collapseLeadership)}
                     <hr className='line-gap-control'/>
                 </CardTitle>
                 <Collapse isOpen={this.props.collapseLeadership}>

@@ -7,6 +7,18 @@ import '../Stylesheets/Body.css';
 class Skills extends React.Component{
     constructor(props){
         super(props);
+
+        this.toggleArrow = this.toggleArrow.bind(this);
+    }
+
+    toggleArrow(collapseState){
+        if(!collapseState){
+            return <img className="arrow" src={require("../Images/arrow-down.png")} alt="arrow"
+                        onClick={this.props.toggleSkills}/>
+        } else {
+            return <img className="arrow" src={require("../Images/arrow.png")} alt="arrow"
+                        onClick={this.props.toggleSkills}/>
+        }
     }
 
     render() {
@@ -14,8 +26,7 @@ class Skills extends React.Component{
             <Card>
                 <CardTitle className="cardHeaders">
                     <b> Skills </b>
-                    <img className="arrow" src={require("../Images/arrow.png")} alt="arrow"
-                         onClick={this.props.toggleSkills}/>
+                    {this.toggleArrow(this.props.collapseSkills)}
                     <hr className='line-gap-control'/> </CardTitle>
                 <Collapse isOpen={this.props.collapseSkills}>
                     <CardBody className='gap-control pushdown'>

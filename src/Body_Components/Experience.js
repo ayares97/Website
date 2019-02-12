@@ -7,6 +7,18 @@ import '../Stylesheets/Body.css'
 class Experience extends React.Component{
     constructor(props){
         super(props);
+
+        this.toggleArrow = this.toggleArrow.bind(this);
+    }
+
+    toggleArrow(collapseState){
+        if(!collapseState){
+            return <img className="arrow" src={require("../Images/arrow-down.png")} alt="arrow"
+                        onClick={this.props.toggleExperience}/>
+        } else {
+            return <img className="arrow" src={require("../Images/arrow.png")} alt="arrow"
+                        onClick={this.props.toggleExperience}/>
+        }
     }
 
     render(){
@@ -14,8 +26,7 @@ class Experience extends React.Component{
             <Card>
                 <CardTitle className='cardHeaders'>
                     <b> Experience</b>
-                    <img className="arrow" src={require("../Images/arrow.png")} alt="arrow"
-                         onClick={this.props.toggleExperience}/>
+                    {this.toggleArrow(this.props.collapseExperience)}
                     <hr className='line-gap-control'/>
                 </CardTitle>
                 <Collapse isOpen={this.props.collapseExperience}>

@@ -5,6 +5,17 @@ class Education extends React.Component{
     constructor(props){
         super(props);
 
+        this.toggleArrow = this.toggleArrow.bind(this);
+    }
+
+    toggleArrow(collapseState){
+        if(!collapseState){
+            return <img className="arrow" src={require("../Images/arrow-down.png")} alt="arrow"
+                        onClick={this.props.toggleEducation}/>
+        } else {
+            return <img className="arrow" src={require("../Images/arrow.png")} alt="arrow"
+                        onClick={this.props.toggleEducation}/>
+        }
     }
 
     render() {
@@ -12,8 +23,7 @@ class Education extends React.Component{
             <Card>
                 <CardTitle className='cardHeaders'>
                     <b> Education </b>
-                    <img className="arrow" src={require("../Images/arrow.png")} alt="arrow"
-                            onClick={this.props.toggleEducation}/>
+                    {this.toggleArrow(this.props.collapseEducation)}
                     <hr className='line-gap-control'/>
                 </CardTitle>
                 <Collapse isOpen={this.props.collapseEducation}>
