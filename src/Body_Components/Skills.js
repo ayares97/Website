@@ -25,11 +25,15 @@ class Skills extends React.Component{
         return (
             <Card>
                 <CardTitle className="cardHeaders">
-                    <b> Skills </b>
+                    <b> Skills & Qualifications </b>
                     {this.toggleArrow(this.props.collapseSkills)}
                     <hr className='line-gap-control'/> </CardTitle>
                 <Collapse isOpen={this.props.collapseSkills}>
                     <CardBody className='gap-control pushdown'>
+                        <b className="miniHeaders"> Current US Government Security Clearance </b>
+                        <ul>
+                            <li>SECRET - August 2018</li>
+                        </ul>
                         <b className="miniHeaders"> Languages</b> <br/>
                         <ul>
                             <li>Java & Javascript (Node.js & React)</li>
