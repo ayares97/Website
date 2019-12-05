@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="752ce73d-d7a3-4fca-aa1d-09e469aa0e6c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Body_Components/Leadership.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Body_Components/Leadership.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Body_Components/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Body_Components/Skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Body_Components/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Body_Components/Experience.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,10 +25,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Body_Components/Skills.js">
+        <entry file="file://$PROJECT_DIR$/src/Body_Components/Experience.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+            <state relative-caret-position="290">
+              <caret line="55" column="176" selection-start-line="55" selection-start-column="176" selection-end-line="55" selection-end-column="176" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -63,19 +62,19 @@
         <option value="$PROJECT_DIR$/src/Body.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/Body_Components/Education.js" />
-        <option value="$PROJECT_DIR$/src/Body_Components/Experience.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/Stylesheets/Body.css" />
         <option value="$PROJECT_DIR$/src/Body_Components/Leadership.js" />
         <option value="$PROJECT_DIR$/src/Body_Components/Skills.js" />
+        <option value="$PROJECT_DIR$/src/Body_Components/Experience.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1398" />
-    <option name="height" value="1020" />
+    <option name="y" value="24" />
+    <option name="width" value="967" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -100,6 +99,12 @@
               <item name="alex-website" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Body_Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alex-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alex-website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,18 +214,18 @@
       <workItem from="1550604841331" duration="912000" />
       <workItem from="1550605905556" duration="189000" />
       <workItem from="1551652692411" duration="16000" />
-      <workItem from="1575572885772" duration="1242000" />
+      <workItem from="1575572885772" duration="1912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71482000" />
+    <option name="totallyTimeSpent" value="72152000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="24" width="967" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17523494" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23446746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -236,7 +241,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4997236" weight="0.32948583" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4997236" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4997236" visible="true" weight="0.33907428" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002764" side_tool="true" weight="0.32948583" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -405,16 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Body_Components/Experience.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stylesheets/Body.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
@@ -432,6 +427,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Body_Components/Skills.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Body_Components/Leadership.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -442,10 +447,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Body_Components/Skills.js">
+    <entry file="file://$PROJECT_DIR$/src/Body_Components/Experience.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        <state relative-caret-position="290">
+          <caret line="55" column="176" selection-start-line="55" selection-start-column="176" selection-end-line="55" selection-end-column="176" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

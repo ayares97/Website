@@ -31,27 +31,29 @@ class Experience extends React.Component{
                 </CardTitle>
                 <Collapse isOpen={this.props.collapseExperience}>
                     <CardBody className='gap-control'>
-                        <a href="https://www.wpafb.af.mil/Portals/60/documents/afrl/ri/ACE2018-Brochure.pdf?ver=2017-09-19-152504-233"
+                        <a href="https://www.ace-cyber.com/ace/"
                            target="_blank" rel="noopener noreferrer">
-                            <b>Advanced Course in Engineering (ACE)</b><br/>
+                            <b>Advanced Course in Engineering (ACE) - Graduate Assistant</b><br/>
                         </a>
                         <i> Air Force Research Labs - Rome NY </i>
                         <ul>
-                            <li>10 week intensive research co-op</li>
-                            <li>Developed and researched Cybersecurity concepts for Air Force Research Labs (AFRL) </li>
+                            <li>Spearheaded development of Integrated SAM software leveraging Agile methodologies.</li>
+                            <li>Developed Proof of Concept code for low-level security protocol, aiding current AFRL research efforts. </li>
+                            <li>Managed 200+ simulated drones and 20 simulated SAMs in the international cyber-warfare exercise <i>BLUE EDGE</i>.</li>
+                            <li>Assisted ACE leadership to ensure technical success and personal growth of 20 interns, 5 foreign officers, and 10 cadets. </li>
+                        </ul>
+
+                        <a href="https://www.ace-cyber.com/ace/"
+                           target="_blank" rel="noopener noreferrer">
+                            <b>Advanced Course in Engineering (ACE) - Cybersecurity Intern</b><br/>
+                        </a>
+                        <i> Air Force Research Labs - Rome NY </i>
+                        <ul>
+                            <li>Awarded Distinguished Graduate - Top 10% of the class. 1 of 3 interns invited to return as ACE Staff.</li>
+                            <li>Lead research and development efforts on Automated Vulnerability Scanner for AFRL.</li>
                             <li>Competed in international cyber warfare exercise <i> BLUE EDGE </i> </li>
-                            <ul>
-                                <li>Commanded 15 person Red Team </li>
-                            </ul>
-                            Skills Developed:
-                            <ul>
-                                <li>Network Mapping, Administration, and Analysis</li>
-                                <li>Stack Smashing & Buffer Overflows</li>
-                                <li>Advanced Persistent Threats (APT)</li>
-                                <li>Red Team Tactics</li>
-                                <li>Firewall & Antivirus Evasion</li>
-                                <li>Implant Development</li>
-                            </ul>
+                            <li>Commanded team of 10 interns,  3 foreign officers, and 5 AF cadets in international cyber-warfare exercise <i>BLUE EDGE</i>.</li>
+                            <li>Completed 9 week-long technical challenges spanning the security domain, including Reverse Engineering, Code-Level Attacks, and Network Warfare.</li>
                         </ul>
                         <a href="https://lifewiregroup.com/" target="_blank" rel="noopener noreferrer">
                             <b> LIFEWire Group</b><br/>
