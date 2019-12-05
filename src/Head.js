@@ -35,9 +35,8 @@ class Head extends React.Component{
                                 </Row>
                                 <hr className="my-2"/>
                                 A passionate, creative, and driven programmer seeking new and exciting challenges to solve.
-                                My primary area of interest is in Cybersecurity, especially concerning the applications of
-                                Blockchain and AI technologies. I'm currently a Senior with an expected graduation date of
-                                Winter 2019.
+                                My primary area of interest is in Cybersecurity, and how developers can become more resilient to emergeing threats.
+                                I'm a super-senior, graduating in Winter 2019, and moving on to work in Cyber Intelligence at a DoD contractor.
                                 <Col className="text-right">
                                     <Button className="emailButton" onClick={this.sendEmail}> Contact me</Button>
                                 </Col>
