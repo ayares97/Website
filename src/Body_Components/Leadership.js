@@ -25,7 +25,7 @@ class Leadership extends React.Component{
         return (
             <Card>
                 <CardTitle className="cardHeaders">
-                    <b>Leadership, Awards, & Clearances</b>
+                    <b>Leadership & Awards</b>
                     {this.toggleArrow(this.props.collapseLeadership)}
                     <hr className='line-gap-control'/>
                 </CardTitle>

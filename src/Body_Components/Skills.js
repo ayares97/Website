@@ -32,32 +32,30 @@ class Skills extends React.Component{
                     <CardBody className='gap-control pushdown'>
                         <b className="miniHeaders"> Current US Government Security Clearance </b>
                         <ul>
-                            <li>SECRET - August 2018</li>
+                            <li>TS - October 2019</li>
                         </ul>
                         <b className="miniHeaders"> Languages</b> <br/>
                         <ul>
                             <li>Java & Javascript (Node.js & React)</li>
                             <li>C & C++</li>
                             <li>Python</li>
+                            <li>GoLang</li>
                             <li>HTML & CSS</li>
                             <li>PHP</li>
-                            <li>Kotlin</li>
                             <li>Bash</li>
                             <li>SQL</li>
-                            <li>Solidity</li>
-
                         </ul>
                         <b className="miniHeaders">Processes</b><br/>
                         <ul>
                             <li>Agile Development</li>
-                            <li>Waterfall Development</li>
                             <li>Version Control - Git</li>
                         </ul>
                         <b className="miniHeaders">Systems</b><br/>
                         <ul>
-                            <li>LAMP Stack</li>
-                            <li>Database Construction</li>
+                            <li>Amazon Web Services</li>
                             <li>Apache Web Servers</li>
+                            <li>SQL Database Design</li>
+                            <li>LAMP Stack</li>
                         </ul>
                     </CardBody>
                 </Collapse>
