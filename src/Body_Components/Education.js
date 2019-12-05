@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, CardBody, CardTitle, Collapse, Row} from "reactstrap";
+import {Card, CardBody, CardTitle, Collapse} from "reactstrap";
 
 class Education extends React.Component{
     constructor(props){
@@ -40,7 +40,8 @@ class Education extends React.Component{
                                 <li> CS314: Software Engineering - A </li>
                                 <li> CS440: Intro to AI - A </li>
                                 <li> CS370: Operating Systems - A  </li>
-                                <li> CS481: Blockchain Theory & Applications - A </li>
+                                <li> CS457: Computer Networks - A </li>
+                                <li> CS475: Parallel Computing - A </li>
                             </ul>
                         </ul>
 
